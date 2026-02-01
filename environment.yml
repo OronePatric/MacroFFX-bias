@@ -1,0 +1,27 @@
+name: macroffx-bias
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pandas
+  - numpy
+  - requests
+  - beautifulsoup4
+  - lxml
+  - fredapi
+  - python-dotenv
+  - pytest
+  - pytest-cov
+  - black
+  - isort
+  - pre-commit
+  - pip:
+      - gspread  # if you want Google Sheets output
+      - oauth2client
+      - textblob
+      - spacy      # optional, if you want more advanced NLP
+      - schedule   # for simple in-process scheduling
+      - pydantic   # config validation
+      - loguru
+      - tabulate

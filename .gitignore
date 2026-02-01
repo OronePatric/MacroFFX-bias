@@ -1,0 +1,54 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# =========================
+# Conda / Mamba
+# =========================
+.conda/
+conda-meta/
+env/
+venv/
+*.conda
+*.lock
+
+# =========================
+# Environment variables / secrets
+# =========================
+.env
+.env.*
+secrets/
+*.key
+*.pem
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Logs / temp
+# =========================
+*.log
+*.tmp
+.cache/
+
+# =========================
+# Editors / IDEs
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
